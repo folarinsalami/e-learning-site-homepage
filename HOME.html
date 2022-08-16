@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Multipage Educational website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="edu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<!---SWIPER JS-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+<style>
+    body{
+        background-image: url(./eduimages/bg-texture.png)
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="HOME.html"><h4>EduPlus+</h4></a>
+            <ul class="nav_menu">
+                <li><a href="HOME.html"> Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>   
+        </div>
+    </nav>
+<!----============== HEADER SECTION==============-->
+    <header>
+        <div class="container header_container">
+            <div class="header_left">
+                <h1> Grow your Skills to Advance your career path</h1>
+                <p>This is a golden opportunity to grow your 
+                    skills and become one of the most sought after 
+                    and top earners in your field.
+                </p>
+                <a href="courses.html" class="btn btn-primary"> Get Started</a>
+           </div>
+           <div class="header_right">
+            <div class="header_right-image">
+                <img src="eduimages/header.svg">
+            </div>
+           </div>
+       </div>
+    </header>
+    <!----============== END OF HEADER ==============-->
+    <section class="categories">
+        <div class="container categories_container">
+            <div class="categories_left">
+                <h1> Categories</h1>
+                <p>
+                    The developmet of our learning and development
+                    curriculum is such that students from all age group
+                    can sign up and start learning
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="categories_right">
+                <article class="category">
+                    <span class="category_icon"><i class="fa-brands fa-bitcoin"></i></span>
+                    <h5>Blockchain</h5>
+                    <p> We are here to educate young people, let's be the change you want to accomplish</p>
+                </article>
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-palette"></i></span>
+                    <h5>Graphics Design</h5>
+                    <p> We are here to educate young people, let's be the change you want to accomplish</p>
+                </article>
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-coins"></i></span>
+                    <h5>Finance</h5>
+                    <p> We are here to educate young people, let's be the change you want to accomplish</p>
+                </article>
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-bullhorn"></i></span>
+                    <h5>Marketing</h5>
+                    <p> We are here to educate young people, let's be the change you want to accomplish</p>
+                </article>
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-music"></i></span>
+                    <h5>Music</h5>
+                    <p> We are here to educate young people, let's be the change you want to accomplish</p>
+                </article>
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-coins"></i></span>
+                    <h5>Business</h5>
+                    <p> We are here to educate young people, let's be the change you want to accomplish</p>
+                </article>
+            </div>
+        </div>
+    </section>
+<!-----======== END OF CATEGORIES=========---->
+
+<section class="courses">
+    <h2>Our Popular Courses</h2>
+    <div class="container courses_container">
+        <article class="course">
+            <div class="course_image">
+                <img src="./eduimages/course1.jpg">
+            </div>
+            <div class="course_info">
+                <h4>Responsive Social Website UI Design</h4>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Alias minus enim ipsa hic dolores commodi consequuntur!
+            </p>
+            <a href="course.html" class="btn btn-primary"> Learn More</a>
+            </div>
+        </article>
+
+        <article class="course">
+            <div class="course_image">
+                <img src="./eduimages/course2.jpg">
+            </div>
+            <div class="course_info">
+                <h4>Responsive Smartphone Design</h4>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Alias minus enim ipsa hic dolores commodi consequuntur!
+            </p>
+            <a href="course.html" class="btn btn-primary"> Learn More</a>
+            </div>
+        </article>
+
+        <article class="course">
+            <div class="course_image">
+                <img src="./eduimages/course3.jpg">
+            </div>
+            <div class="course_info">
+                <h4>Responsive Admin Dashboard Design</h4>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Alias minus enim ipsa hic dolores commodi consequuntur!
+            </p>
+            <a href="course.html" class="btn btn-primary"> Learn More</a>
+            </div>
+        </article>
+    </div>
+</section>
+<!-----======== END OF THE COURSES=========---->
+
+<section class="faqs">
+    <h2> Frequently Asked Question</h2>
+    <div class="container faqs_container">
+        <article class="faq">
+            <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="question_answer">
+                <h4>How do I know the right courses for me?</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Itaque eligendi, suscipit assumenda rerum dignissimos modi nam!
+                </p>
+            </div>
+        </article>
+        <article class="faq">
+            <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="question_answer">
+                <h4>How do I know the right courses for me?</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Itaque eligendi, suscipit assumenda rerum dignissimos modi nam!
+                </p>
+            </div>
+        </article>
+        <article class="faq">
+            <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="question_answer">
+                <h4>How do I know the right courses for me?</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Itaque eligendi, suscipit assumenda rerum dignissimos modi nam!
+                </p>
+            </div>
+        </article>
+        <article class="faq">
+            <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="question_answer">
+                <h4>How do I know the right courses for me?</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Itaque eligendi, suscipit assumenda rerum dignissimos modi nam!
+                </p>
+            </div>
+        </article>
+        <article class="faq">
+            <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="question_answer">
+                <h4>How do I know the right courses for me?</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Itaque eligendi, suscipit assumenda rerum dignissimos modi nam!
+                </p>
+            </div>
+        </article>
+        <article class="faq">
+            <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="question_answer">
+                <h4>How do I know the right courses for me?</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Itaque eligendi, suscipit assumenda rerum dignissimos modi nam!
+                </p>
+            </div>
+        </article>
+        <article class="faq">
+            <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="question_answer">
+                <h4>How do I know the right courses for me?</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Itaque eligendi, suscipit assumenda rerum dignissimos modi nam!
+                </p>
+            </div>
+        </article>
+        <article class="faq">
+            <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="question_answer">
+                <h4>How do I know the right courses for me?</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Itaque eligendi, suscipit assumenda rerum dignissimos modi nam!
+                </p>
+            </div>
+        </article>
+    </div>
+</section>
+<!---=======END OF FAQ =============-->
+<!---=======TESTIMONIAL SECTION=============-->
+
+<section class="container testimonials_container mySwiper">
+    <h2> Students' Testimonials</h2>
+    <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="eduimages/avatar1.jpg">
+            </div>
+            <div class="testimonial_info">
+                <h5>Diana Ayi</h5>
+                <small> Student </small>
+            </div>
+            <div class="testimonial_body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Porro qui, laboriosam ratione suscipit reiciendis voluptate.
+                </p>
+            </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="eduimages/avatar2.jpg">
+            </div>
+            <div class="testimonial_info">
+                <h5>Ernest Achiever</h5>
+                <small> Web Developer </small>
+            </div>
+            <div class="testimonial_body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Porro qui, laboriosam ratione suscipit reiciendis voluptate.
+                </p>
+            </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="eduimages/avatar4.jpg">
+            </div>
+            <div class="testimonial_info">
+                <h5>Steven Gerrard</h5>
+                <small> Freelancer </small>
+            </div>
+            <div class="testimonial_body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Porro qui, laboriosam ratione suscipit reiciendis voluptate.
+                </p>
+            </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="eduimages/avatar5.jpg">
+            </div>
+            <div class="testimonial_info">
+                <h5>Alhaja Mai-Rago</h5>
+                <small> Entrepreneur </small>
+            </div>
+            <div class="testimonial_body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Porro qui, laboriosam ratione suscipit reiciendis voluptate.
+                </p>
+            </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="eduimages/avatar6.jpg">
+            </div>
+            <div class="testimonial_info">
+                <h5>Clementina Westerhoff</h5>
+                <small> Designer </small>
+            </div>
+            <div class="testimonial_body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Porro qui, laboriosam ratione suscipit reiciendis voluptate.
+                </p>
+            </div>
+        </article>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container footer_container">
+        <div class="footer_1">
+            <a href="HOME.html" class="footer_logo"><h4>Eduplus+</h4></h4></a>
+            <p>
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Aliquam voluptatibus veniam veritatis. Nisi sunt iure sequi vitae aliquid necessitatibus, veritatis iusto quod commodi nemo, sed dignissimos inventore quia debitis asperiores! 
+            </p>
+        </div>
+
+        <div class="footer_2">
+            <h4>Permalink</h4>
+            <ul class="permalinks">
+                <li><a href="HOME.html"> Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_3">
+            <h4>Privacy</h4>
+            <ul class="privacy">
+                <li><a href="#"> Privacy Policy</a></li>
+                <li><a href="#"> Terms & Conditions </a></li>
+                <li><a href="#">Refund Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer_4">
+            <h4>Contact Us</h4>
+            <div>
+                <p> +01 234 567 8910</p>
+                <p> salamifolarin1410@gmail.com</p>
+            </div>
+            <ul class="footer_socials">
+                <li>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_copyright">
+            <small>copyright &copy Eduplus+ Youtube Tutorials</small>
+        </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: "1",
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      //when window width is >=600px
+      breakpoints:{
+        600:{
+            slidesPerView: "3",
+        }
+      }
+    });
+</script>
+<script src="./main.js"></script>
+</body>
+</div>
+</html>
